@@ -1,0 +1,7 @@
+packages/
+Console/bin/
+Console/obj/
+TestResults/
+CalculatorUnitTest/bin/
+CalculatorUnitTest/obj/
+.vs/
