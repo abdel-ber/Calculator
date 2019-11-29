@@ -18,24 +18,24 @@ namespace Console
         /// <param name="b">2nd value.</param>
         /// <returns>the addition value.</returns>
         //Any Update
-        public virtual int Add(int a, int b)
+        public virtual int Add(int Val1, int Val2)
         {
-            return a+b;
+            return Val1+Val2;
         }
-        public int Sub(int Varible1, int Variable2)
+        public int Sub(int Val1, int Val2)
         {
-            return Varible1-Variable2;
+            return Val1 - Val2;
         }
-        public virtual int Mul(int a, int b)
+        public virtual int Mul(int Val1, int Val2)
         {
-            return a*b;
+            return Val1 * Val2;
         }
-        public virtual int Div(int a, int b)
+        public virtual int Div(int Val1, int Val2)
         {
             int res;
-            if (b != 0)
+            if (Val2 != 0)
             {
-                res = a / b;
+                res = Val1 / Val2;
             }
                 else
             {
