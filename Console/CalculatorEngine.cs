@@ -14,28 +14,28 @@ namespace Console
         /// <summary>
         /// Function to Additin two value
         /// </summary>
-        /// <param name="a">1st value.</param>
-        /// <param name="b">2nd value.</param>
+        /// <param name="Variable1">1st value.</param>
+        /// <param name="Variable2">2nd value.</param>
         /// <returns>the addition value.</returns>
         //Any Update
-        public virtual int Add(int Val1, int Val2)
+        public virtual int Add(int Variable1, int Variable2)
         {
-            return Val1+Val2;
+            return Variable1+Variable2;
         }
-        public int Sub(int Val1, int Val2)
+        public int Sub(int Variable1, int Variable2)
         {
-            return Val1 - Val2;
+            return Variable1 - Variable2;
         }
-        public virtual int Mul(int Val1, int Val2)
+        public virtual int Mul(int Variable1, int Variable2)
         {
-            return Val1 * Val2;
+            return Variable1 * Variable2;
         }
-        public virtual int Div(int Val1, int Val2)
+        public virtual int Div(int Variable1, int Variable2)
         {
             int res;
-            if (Val2 != 0)
+            if (Variable2 != 0)
             {
-                res = Val1 / Val2;
+                res = Variable1 / Variable2;
             }
                 else
             {
