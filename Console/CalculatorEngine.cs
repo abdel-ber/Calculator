@@ -22,9 +22,9 @@ namespace Console
         {
             return a+b;
         }
-        public int Sub(int a, int b)
+        public int Sub(int Varible1, int Variable2)
         {
-            return a-b;
+            return Varible1-Variable2;
         }
         public virtual int Mul(int a, int b)
         {
