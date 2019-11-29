@@ -44,5 +44,18 @@ namespace Console
 
             return res;
         }
+        public virtual int Square(int variable1)
+        {
+            return Convert.ToInt32 (Math.Pow(variable1, 2));
+        }
+        public virtual int SquareRoot(int variable1)
+        {
+            double result= Math.Sqrt(variable1);
+            return Convert.ToInt32(result);
+        }
+        public virtual float Percent(int variable1)
+        {
+            return (float) variable1/100;
+        }
     }
 }

@@ -57,5 +57,33 @@ namespace CalculatorUnitTest
             int actual = engine.Div(a, b);
             Assert.AreEqual(expected, actual);
         }
+        [TestMethod]
+        public void TestMethodSquareRoot()
+        {
+            int a = 9;
+            int expected = 3;
+            CalculatorEngine engine = new CalculatorEngine();
+            int actual = engine.SquareRoot(a);
+            Assert.AreEqual(expected, actual);
+        }
+        [TestMethod]
+        public void TestMethodSquare()
+        {
+            int a = 3;
+            int expected = 9;
+            CalculatorEngine engine = new CalculatorEngine();
+            int actual = engine.Square(a);
+            Assert.AreEqual(expected, actual);
+        }
+        [TestMethod]
+        public void TestMethodPercent()
+        {
+            int a = 4;
+            float expected = 0.04f;
+            CalculatorEngine engine = new CalculatorEngine();
+            float actual = engine.Percent(a);
+            Assert.AreEqual(expected, actual);
+        }
+
     }
 }
