@@ -18,13 +18,13 @@ namespace CalculatorUnitTest
             Assert.AreEqual(expected, actual);
         }
         [TestMethod]
-        public void TestMethodSub()
+        public void TestMethodSubstraction()
         {
             int a = 1;
             int b = 2;
             int expected = -1;
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.Sub(a, b);
+            int actual = engine.Substraction(a, b);
             Assert.AreEqual(expected, actual);
         }
         [TestMethod]

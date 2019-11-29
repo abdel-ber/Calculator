@@ -22,7 +22,7 @@ namespace Console
         {
             return variable1+variable2;
         }
-        public virtual int Sub(int variable1, int variable2)
+        public virtual int Substraction(int variable1, int variable2)
         {
             return variable1 - variable2;
         }
