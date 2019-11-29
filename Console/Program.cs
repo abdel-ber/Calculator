@@ -10,7 +10,8 @@ namespace Console
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("hello");
+            string aden = "hello";
+            System.Console.WriteLine(aden);
         }
     }
 }
